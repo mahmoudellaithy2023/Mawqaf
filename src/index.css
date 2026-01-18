@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import url("https://unpkg.com/leaflet/dist/leaflet.css");
+
+body {
+  overflow-x: hidden;
+  background-color: white !important ;
+}
+
+@theme {
+  --color-mainColor: #146f7b;
+  --color-mainColorHover: #147f7b;
+  --color-foreground: #111c27;
+  --color-muted-foreground: #627384;
+}
+
+.photoAuthBg {
+  /* background: linear-gradient(134deg,rgba(26, 114, 126, 1) 60%, rgba(100, 160, 168, 1) 100%); */
+  /* background: linear-gradient(134deg,rgba(26, 114, 126, 1) 60%, rgba(167, 204, 209, 1) 100%); */
+  background: linear-gradient(
+    134deg,
+    rgba(26, 114, 126, 1) 60%,
+    rgba(216, 232, 235, 1) 100%
+  );
+}
+
+button,
+[role="button"],
+.cursor-pointer-auto {
+  cursor: pointer;
+}
+
+.heroHome {
+  @apply bg-mainColor;
+}
+
+.sectionTitle {
+  @apply my-5 text-lg font-bold font-semibold tracking-wider text-mainColor uppercase;
+}
+
+.sectionDesc {
+  @apply text-3xl md:text-4xl my-4 text-foreground font-bold;
+}
+
+.sectionArticle {
+  @apply text-muted-foreground my-5 text-lg;
+}
+
+.cardHover
+{
+    @apply shadow transition-all duration-300 hover:-translate-y-1 hover:shadow-xl
+}
+
+
+.community-root {
+  --community-bg: #f6f7f9;
+  --community-card: #ffffff;
+}
+
+.community-root.dark {
+  --community-bg: #0f172a;
+  --community-card: #1e293b;
+}
