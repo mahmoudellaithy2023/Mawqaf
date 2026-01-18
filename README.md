@@ -1,16 +1,54 @@
-# React + Vite
+# 🚍 Mawqaf Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Mawqaf** is a smart transportation hub management platform designed to organize microbus stations and enhance passenger experience.  
+The platform provides real-time trip information, admin dashboards, a marketplace, and a full community system for interaction between passengers and drivers.
 
-Currently, two official plugins are available:
+Built as a modern web application using **React, Redux, and API-based architecture**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🚌 Core System
+- View available routes and lines.
+- Track vehicle status (Ready / Departed).
+- Manage trips and orders.
+- Order confirmation workflow.
+- Admin dashboard for stations and users.
 
-## Expanding the ESLint configuration
+### 🛒 Marketplace
+- Product listing with details pages.
+- Shopping cart system.
+- Orders page.
+- Static data ready to be connected to real APIs.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 💬 Community Module (API Powered)
+- Create, edit, and delete posts.
+- Comment system.
+- Like / interaction system.
+- Pagination and search.
+- Authentication-based access.
+- Role-based permissions.
+
+### 🎛 Dashboard
+- Manage stations.
+- Manage users.
+- Control content and community posts.
+- UI enhancements and validations.
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React, Vite  
+- **State Management:** Redux Toolkit  
+- **Routing:** React Router  
+- **Styling:** CSS / Sass / Tailwind  
+- **Icons:** Lucide-react  
+- **API Handling:** Axios / Fetch  
+- **Architecture:** Modular & Component-Based  
+
+---
+
+## 📂 Project Structure
+
